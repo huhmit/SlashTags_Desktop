@@ -140,7 +140,10 @@ import chroma from 'chroma-js'
     videos: function() {
       console.log(this.videos);
       this.show = [0,1]
-      
+
+      this.regTags = []
+      this.descTags = []
+
       this.videos.forEach(element => {
         element.tags.forEach(tag => {
           if (!(tag.toLowerCase() in this.regTags)) {
