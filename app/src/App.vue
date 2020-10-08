@@ -68,7 +68,7 @@ export default {
   }
 };
 </script>
-<style >
+<style>
 .scroll-area {
   position: relative;
   margin: auto;
