@@ -18,7 +18,7 @@
         />
         <v-spacer></v-spacer>
         <v-icon id="minimise" v-on:click="minimizeWindow" size="20" class="minimise">mdi-minus</v-icon>
-        <v-icon id="maximise" v-on:click="maximizeWindow" size="20" class="maximise">mdi-checkbox-blank-outline</v-icon>
+        <v-icon id="maximise" v-on:click="maximizeWindow" size="17" class="maximise">mdi-checkbox-blank-outline</v-icon>
         <v-icon id="close" v-on:click="closeWindow" size="20" class="close">mdi-close</v-icon>
     </v-app-bar>
   </div>
